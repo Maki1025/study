@@ -1,0 +1,75 @@
+@charset "UTF-8";
+
+body{
+  margin: 0;
+  padding: 0;
+
+}
+
+
+
+header h1{
+  padding-top:5px;
+  padding-bottom: 5px;
+  padding-left: 15px;
+  font-size: 15px;
+  font-family:"游ゴシック", "YuGothic", "メイリオ", meiryo, sans-serif;
+  font-weight: lighter;
+}
+
+.container{
+  background-color: gray
+}
+
+.flexbox{
+  display: flex;
+  justify-content: space-around;
+}
+
+main{
+  margin: 40px;
+  width: 40%;
+  background-color: white
+
+}
+
+main img{
+  width: 100%;
+}
+
+aside{
+  margin: 40px;
+  padding: 60px;
+  width: 30%;
+  background-color: white
+}
+
+aside img{
+  width: 100%;
+}
+
+.panel{
+  margin: 50px;
+}
+
+.date{
+  flex-wrap: wrap;
+  font-size: 14px;
+  color: #555;
+}
+
+.panel h2{
+  font-size: 18px;
+}
+
+.panel p{
+  font-size: 15px;
+}
+
+
+footer h1{
+  text-align:center;
+  padding-top:5px;
+  padding-bottom: 5px;
+    font-size: 5px;
+}
